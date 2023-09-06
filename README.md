@@ -1,3 +1,4 @@
-# forkify Project
+# Recipy Project
 
-Recipe application with custom recipe uploads.
+Recipe application made for food lovers !
+

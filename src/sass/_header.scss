@@ -92,6 +92,10 @@
       fill: $color-grey-light-2;
       margin-right: 0.7rem;
       transform: translateY(-1px);
+
+      &:hover {
+        fill: $color-primary;
+      }
     }
 
     &:focus {

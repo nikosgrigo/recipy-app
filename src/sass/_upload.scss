@@ -5,6 +5,7 @@
   transform: translate(-50%, -50%);
   width: 100rem;
   background-color: white;
+
   border-radius: 9px;
 
   padding: 5rem 6rem;
@@ -14,7 +15,7 @@
 
   .btn--close-modal {
     font-family: inherit;
-    color: inherit;
+
     position: absolute;
     top: 0.5rem;
     right: 1.6rem;
@@ -46,6 +47,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem 6rem;
+  color: $color-grey-dark-1;
 
   &__column {
     display: grid;
@@ -56,7 +58,7 @@
     & label {
       font-size: 1.5rem;
       font-weight: 600;
-      color: inherit;
+      color: $color-grey-dark-1;
     }
 
     & input {
@@ -65,6 +67,7 @@
       border: 1px solid #ddd;
       border-radius: 0.5rem;
       transition: all 0.2s;
+      color: $color-grey-dark-1;
 
       &::placeholder {
         color: $color-grey-light-3;

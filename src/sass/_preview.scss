@@ -13,10 +13,12 @@
     &:hover {
       background-color: $color-grey-light-1;
       transform: translateY(-2px);
+      color: $color-grey-light-2;
     }
 
     &--active {
       background-color: $color-grey-light-1;
+      color: $color-grey-light-2;
     }
   }
 
@@ -37,12 +39,6 @@
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(
-        to right bottom,
-        $color-grad-1,
-        $color-grad-2
-      );
-      opacity: 0.4;
     }
 
     img {
@@ -65,9 +61,9 @@
   &__title {
     grid-column: 1/-1;
     font-size: 1.45rem;
-    color: $color-primary;
+    // color: $color-primary;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 800;
 
     // This is how text is truncated!
     text-overflow: ellipsis;
@@ -78,7 +74,7 @@
 
   &__publisher {
     font-size: 1.15rem;
-    color: $color-grey-dark-2;
+    // color: $color-grey-dark-2;
     text-transform: uppercase;
     font-weight: 600;
   }
@@ -102,4 +98,13 @@
       fill: $color-primary;
     }
   }
+}
+
+a {
+  color: $color-primary;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-around;
 }

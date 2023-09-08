@@ -60,11 +60,11 @@ export default class View {
 
   renderSpinner() {
     const markup = `
-      <div class="spinner">
-        <svg>
-          <use href="${icons}#icon-loader"></use>
-        </svg>
-      </div>
+    <div class="three-body">
+    <div class="three-body__dot"></div>
+    <div class="three-body__dot"></div>
+    <div class="three-body__dot"></div>
+    </div>
     `;
     this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);

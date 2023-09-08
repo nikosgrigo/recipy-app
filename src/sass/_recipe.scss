@@ -1,6 +1,7 @@
 .recipe {
   background-color: $color-grey-light-2;
   color: $color-grey-dark-2;
+  text-align: center;
 
   ///////////
   // FIGURE
@@ -18,12 +19,12 @@
       position: absolute;
       top: 0;
       left: 0;
-      background-image: linear-gradient(
-        to right bottom,
-        $color-grad-1,
-        $color-grad-2
-      );
-      opacity: 0.6;
+      // background-image: linear-gradient(
+      //   to right bottom,
+      //   $color-grad-1,
+      //   $color-grad-2
+      // );
+      // opacity: 0.6;
     }
   }
 

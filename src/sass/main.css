@@ -125,6 +125,11 @@ body {
   outline: none;
 }
 
+.btn-current {
+  color: #615551;
+  background-color: #f4f2ee;
+}
+
 .btn--round {
   background-image: linear-gradient(to right bottom, #f4f2ee, #ec4c3e);
   border-radius: 50%;
@@ -191,25 +196,6 @@ body {
   color: #918581;
 }
 
-.spinner {
-  margin: 5rem auto;
-  text-align: center;
-}
-.spinner svg {
-  height: 6rem;
-  width: 6rem;
-  fill: #ed1703;
-  animation: rotate 2s infinite linear;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
 .three-body {
   --uib-size: 35px;
   --uib-speed: 0.8s;

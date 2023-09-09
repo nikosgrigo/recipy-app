@@ -90,6 +90,11 @@
   }
 }
 
+.btn-current {
+  color: $color-grey-dark-1;
+  background-color: $color-grad-1;
+}
+
 .btn--round {
   background-image: $gradient;
   border-radius: 50%;
@@ -167,27 +172,27 @@
   color: $color-grey-dark-2;
 }
 
-.spinner {
-  margin: 5rem auto;
-  text-align: center;
+// .spinner {
+//   margin: 5rem auto;
+//   text-align: center;
 
-  svg {
-    height: 6rem;
-    width: 6rem;
-    fill: $color-primary;
-    animation: rotate 2s infinite linear;
-  }
-}
+//   svg {
+//     height: 6rem;
+//     width: 6rem;
+//     fill: $color-primary;
+//     animation: rotate 2s infinite linear;
+//   }
+// }
 
-@keyframes rotate {
-  0% {
-    transform: rotate(0);
-  }
+// @keyframes rotate {
+//   0% {
+//     transform: rotate(0);
+//   }
 
-  100% {
-    transform: rotate(360deg);
-  }
-}
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
 
 .three-body {
   --uib-size: 35px;

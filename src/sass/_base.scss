@@ -3,13 +3,13 @@ $color-primary: #ed1703;
 $color-grad-1: #f4f2ee;
 $color-grad-2: #ec4c3e;
 
-$color-grey-light-1: #fc3826ea; // Light background
-$color-grey-light-2: #f2efee; // Light lines
-$color-grey-light-3: #d3c7c3; // Light text (placeholder)
+$color-grey-light-1: #f94d3edd; // Light background
+$color-grey-light-2: #f3e8e1; // Light lines
+$color-grey-light-3: #dfdddd; // Light text (placeholder)
 $color-grey-dark-1: #615551; // Normal text
 $color-grey-dark-2: #918581; // Lighter text
 
-$gradient: linear-gradient(to right bottom, $color-grad-1, $color-grad-2);
+$gradient: linear-gradient(to left bottom, $color-grad-1, $color-grad-2);
 
 $bp-large: 78.15em; // 1250px
 $bp-medium: 61.25em; // 980px

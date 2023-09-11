@@ -13,12 +13,12 @@
     &:hover {
       background-color: $color-grey-light-1;
       transform: translateY(-2px);
-      color: $color-grey-light-2;
+      color: white;
     }
 
     &--active {
-      background-color: $color-grey-light-1;
-      color: $color-grey-light-2;
+      background-color: $color-grey-light-2;
+      // color: $color-grey-light-2;
     }
   }
 
@@ -61,7 +61,6 @@
   &__title {
     grid-column: 1/-1;
     font-size: 1.45rem;
-    // color: $color-primary;
     text-transform: uppercase;
     font-weight: 800;
 
@@ -74,7 +73,7 @@
 
   &__publisher {
     font-size: 1.15rem;
-    // color: $color-grey-dark-2;
+    color: $color-grey-dark-1;
     text-transform: uppercase;
     font-weight: 600;
   }

@@ -2,7 +2,6 @@
   background-image: $gradient;
   border-radius: 10rem;
   border: none;
-  text-transform: uppercase;
   color: #fff;
   cursor: pointer;
   display: flex;
@@ -57,11 +56,11 @@
 
 .btn--inline {
   color: $color-grey-light-2;
-  font-size: 1.3rem;
-  font-weight: 600;
+  font-size: 1.5rem;
+  font-weight: 40000;
   border: none;
   background-color: $color-primary;
-  padding: 0.8rem 1.2rem;
+  padding: 1.2rem 1.6rem;
   border-radius: 10rem;
   cursor: pointer;
 
@@ -164,7 +163,6 @@
   text-transform: uppercase;
   margin-bottom: 2.5rem;
   text-align: center;
-  // transform: skewY(-3deg);
 }
 
 .link:link,
@@ -172,28 +170,7 @@
   color: $color-grey-dark-2;
 }
 
-// .spinner {
-//   margin: 5rem auto;
-//   text-align: center;
-
-//   svg {
-//     height: 6rem;
-//     width: 6rem;
-//     fill: $color-primary;
-//     animation: rotate 2s infinite linear;
-//   }
-// }
-
-// @keyframes rotate {
-//   0% {
-//     transform: rotate(0);
-//   }
-
-//   100% {
-//     transform: rotate(360deg);
-//   }
-// }
-
+//Spinner
 .three-body {
   --uib-size: 35px;
   --uib-speed: 0.8s;
@@ -304,7 +281,6 @@
   max-width: 40rem;
   margin: 0 auto;
   padding: 5rem 4rem;
-
   display: flex;
 
   svg {
@@ -319,5 +295,6 @@
     font-size: 1.8rem;
     line-height: 1.5;
     font-weight: 600;
+    color: rgb(101, 100, 100);
   }
 }
